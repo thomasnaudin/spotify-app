@@ -10,7 +10,10 @@
         /* Sound access */
         "--socket=pulseaudio",
         /* Network access */
-        "--share=network"
+        "--share=network",
+        /* Media keys: */
+        "--talk-name=org.gnome.SettingsDaemon",
+        "--own-name=org.mpris.MediaPlayer2.spotify"
     ],
     "build-options" : {
         "cflags": "-O2 -g",
