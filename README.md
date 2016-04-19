@@ -3,7 +3,7 @@ Unfortunately there is no redistribution rights for the spotify binaries, so you
 
 The package uses the freedesktop.org runtime, so you first need to install the sdk (so you can build the bundled stuff) and the platform:
 ```
-wget https://people.gnome.org/~alexl/keys/gnome-sdk.gpg
+wget https://sdk.gnome.org/keys/gnome-sdk.gpg
 xdg-app --user remote-add --gpg-key=gnome-sdk.gpg gnome http://sdk.gnome.org/repo/
 xdg-app --user install gnome org.freedesktop.Sdk 1.4
 xdg-app --user install gnome org.freedesktop.Platform 1.4
